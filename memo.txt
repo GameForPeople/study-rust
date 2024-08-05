@@ -1,0 +1,29 @@
+Rust 가이드 문서 : https://prev.rust-lang.org/ko-KR/documentation.html
+공식 문서 - 영어    : https://doc.rust-lang.org/book/
+한글 문서 - 진행도 : https://doc.rust-kr.org/ch02-00-guessing-game-tutorial.html
+
+// 신규 프로젝트 만들기
+cargo new rust_study 
+
+// cargo를 통해 빌드하기
+cargo build
+
+// cargo를 통해 빌드하고 실행하기 ( cargo run을 하면, 매번 빌드하고 실행하는 것이 아닌, 이미 빌드되어있으면 실행만 합니다. )
+cargo run
+
+// cargo로 코드 에러 유무 체크하기
+cargo check
+
+// 크레이트를 추가하기( 외부 라이브러리? )
+toml(Tom’s Obvious, Minimal Language) 파일에서,
+"
+[dependencies]
+
+rand = "0.3.14"
+"
+
+// 의존성 있는 라이브러리? 크레이트?들을 업데이트
+cargo update
+
+// 의존성 있는 크레이트와 관련된 문서들을 오픈
+cargo doc --open
