@@ -57,5 +57,11 @@ fn main()
         let heart_eyed_cat = '😻';
     }
 
+    another_function();
     
+}
+
+fn another_function() 
+{
+    println!("Another function.");
 }

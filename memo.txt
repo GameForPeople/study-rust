@@ -1,6 +1,6 @@
 Rust 가이드 문서 : https://prev.rust-lang.org/ko-KR/documentation.html
 공식 문서 - 영어    : https://doc.rust-lang.org/book/
-한글 문서 - 진행도 : https://doc.rust-kr.org/ch03-02-data-types.html#%EB%B3%B5%ED%95%A9-%ED%83%80%EC%9E%85
+한글 문서 - 진행도 : https://doc.rust-kr.org/ch03-05-control-flow.html#%EB%B0%98%EB%B3%B5%EB%AC%B8%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%B0%98%EB%B3%B5
 
 // 신규 프로젝트 만들기
 cargo new rust_study 
